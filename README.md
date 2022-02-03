@@ -32,10 +32,11 @@ request: {"username": "xyz", "address": "banglore"}<br><br>
 method-----------url--------------------------------------------Description<br>
 POST------------/meter/add-readings---------------------To add energy consumption data<br>
 request: {"userId": 1, "meterReading": 112, "date": "30/12/2020"}<br><br>
+method-----------url--------------------------------------------Description<br>
 GET-------------/meter/get-bill/{userId}/{month}---------To get generated bill according to month name<br>
-In above get request we will pass month name like:-january or febuary or...<br>
-
-
+In above get request we will pass month name like:-january or febuary or...<br><br>
+method-----------url--------------------------------------------Description<br>
+DELETE----------/meter/remove-user/{userid}-----------To remove a user from database <br>
 
 
 
