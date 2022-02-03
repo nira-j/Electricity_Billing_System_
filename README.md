@@ -11,7 +11,7 @@ The house owner should be able to get the monthly billing details from the syste
 1) MySQL Server(8.0.17)
 2) Eclipse IDE
 3) SqlYog as a client of MySQL server
-4) JDBC(version 8.0.13) to to establish connection between database and application
+4) JDBC(version 8.0.13) to establish connection between database and application
 5) Servlet for backend server side code
 6) Tomcat server(version 9.0)
 7) Postman as a client to send request to server
