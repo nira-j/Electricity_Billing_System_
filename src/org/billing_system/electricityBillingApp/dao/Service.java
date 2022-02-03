@@ -13,7 +13,6 @@ public class Service {
 
 	public Service() {
 		
-		DbConnection.createDatabase();
 	}
 	public String addReading(int userid, int meterreading, String date) {
 		PreparedStatement pstmt=null;
