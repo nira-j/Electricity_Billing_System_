@@ -1,10 +1,10 @@
 # Electricity_Billing_System_
  
-A simple REST API-based electricity billing management system that will calculate the <br>
-units consumed within specified time duration and accordingly calculate the amount of money<br>
-to be paid for those units.<br>
-There are two users to this system. The meter reading person and the house owner. The meter<br>
-reading person reads the meter and updates the system.<br>
+A simple REST API-based electricity billing management system that will calculate the 
+units consumed within specified time duration and accordingly calculate the amount of money
+to be paid for those units.
+There are two users to this system. The meter reading person and the house owner. The meter
+reading person reads the meter and updates the system.
 The house owner should be able to get the monthly billing details from the system.<br>
 
 ## Used Tools
