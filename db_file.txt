@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS billing_system.user(userid int(3) NOT NULL AUTO_INCREMENT, 
+					username varchar(50) DEFAULT NULL,
+					address varchar(100) DEFAULT NULL, 
+					PRIMARY KEY (`userid`) 
+					);
+
+CREATE TABLE IF NOT EXISTS billing_system.billrecord(
+					billid int(3) NOT NULL AUTO_INCREMENT, 
+					amount int(5) DEFAULT NULL,
+					energy int(5) DEFAULT NULL,
+					totalconsumption int(5) DEFAULT NULL,
+					entrydate varchar(20) DEFAULT NULL, 
+					month varchar(20) DEFAULT NULL, 
+					userid int(3) DEFAULT NULL,
+					PRIMARY KEY (billid),
+					KEY useri (userid`),
+					CONSTRAINT FOREIGN KEY (userid) REFERENCES user (userid) ON DELETE CASCADE ON UPDATE CASCADE
+					);
+
+url:- delete-user/{id}
